@@ -11,10 +11,10 @@ const Bride = () => {
           <h2 className="text-3xl text-[#C5A880] mb-4">
             Fathima Kareem
           </h2>
-          <h5 className="text-xl">D/o Abdul Kareem & Mrs Soudha Kareem</h5>
-          <p className="mb-4">Kattuparamabil House,Kodikuthumala, Asokapuram P.O, Aluva</p>
+          <h5 className="text-[15px] md:text-xl">D/o Mr. ABDUL KAREEM & Mrs. SOUDHA KAREEM</h5>
+          <p className="mb-4">Tharamelparambil(H), Panayikulam</p>
 
-          <p className="text-gray-600 leading-relaxed">
+          <p className="text-[15px] md:text-xl leading-relaxed">
             Elegant in faith and grace, stepping into a new chapter
             written with love and barakah.
           </p>

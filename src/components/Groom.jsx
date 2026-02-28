@@ -19,10 +19,10 @@ const Groom = () => {
             Muhammed Riyas
           </h2>
 
-          <h5 className="text-[17px] md:text-xl">S/o K A HAMEED & Mrs SULAIKHA HAMEED</h5>
+          <h5 className="text-[15px] md:text-xl">S/o Mr. K A HAMEED & Mrs. SULAIKHA HAMEED</h5>
           <p className="mb-4">Kattuparambil House,Kodikuthumala, Asokapuram P.O, Aluva</p>
 
-          <p className="text-[16px] leading-relaxed">
+          <p className="text-[15px] md:text-xl leading-relaxed">
             Guided by faith and strength, beginning a lifetime
             of devotion and partnership.
           </p>

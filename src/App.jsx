@@ -3,6 +3,7 @@ import Bride from "./components/Bride";
 import Groom from "./components/Groom";
 import StoryStrip from "./components/StoryStrip";
 import Event from "./components/Event";
+import { VideoScrollSection } from "./components/VideoScrollSection";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <StoryStrip />
       <Groom />
       <Bride />
+      <VideoScrollSection/>
       <Event />
     </>
   );
