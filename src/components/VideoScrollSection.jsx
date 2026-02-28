@@ -40,7 +40,7 @@ export const VideoScrollSection = () => {
           className="relative z-10 text-center px-6 text-white opacity-0"
         >
           <h2 className="text-xl md:text-5xl font-heading mb-4">
-            A Journey of <br /><span className="text-4xl md:text-6xl text-[#C5A880]">Love & Faith</span>
+            A Journey of <br /><span className="text-4xl md:text-6xl text-[#C5A880] font-bold">Love & Faith</span>
           </h2>
 
           <p className="max-w-md mx-auto text-gray-200">
