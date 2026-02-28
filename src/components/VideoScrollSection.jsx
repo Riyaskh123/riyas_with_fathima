@@ -1,13 +1,18 @@
 import { motion, useScroll, useTransform } from "framer-motion";
+import { useEffect } from "react";
 
 export const VideoScrollSection = () => {
   const { scrollYProgress } = useScroll();
 
   const opacity = useTransform(
     scrollYProgress,
-    [0.25, 0.4, 0.7],
-    [0, 1, 0]
+    [0.7, 0.8, 1],
+    [0, 1, 1]
   );
+
+  useEffect(() => {
+    console.log(opacity);
+  }, [opacity]);
 
   return (
     <section className="relative h-[200vh] bg-black">
@@ -21,7 +26,7 @@ export const VideoScrollSection = () => {
           loop
           playsInline
           preload="auto"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-center"
         >
           <source src="/wedding.mp4" type="video/mp4" />
         </video>
@@ -32,10 +37,10 @@ export const VideoScrollSection = () => {
         {/* Content */}
         <motion.div
           style={{ opacity }}
-          className="relative z-10 text-center px-6 text-white"
+          className="relative z-10 text-center px-6 text-white opacity-0"
         >
-          <h2 className="text-4xl md:text-5xl font-heading mb-4">
-            A Journey of Love & Faith
+          <h2 className="text-xl md:text-5xl font-heading mb-4">
+            A Journey of <br /><span className="text-4xl md:text-6xl text-[#C5A880]">Love & Faith</span>
           </h2>
 
           <p className="max-w-md mx-auto text-gray-200">
