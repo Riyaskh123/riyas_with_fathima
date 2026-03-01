@@ -35,6 +35,18 @@ const Hero = () => {
           Two souls united by faith, written by destiny.
         </p>
 
+        <h3 className="text-lg md:text-2xl font-heading mt-4 text-[#C5A880] font-bold">
+          April 5th 2026, Sunday <br/>6:00 PM Onwards
+        </h3>
+
+
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
+          <div className="w-5 h-9 border border-white/30 rounded-full flex justify-center p-1">
+            <div className="w-1 h-2 bg-[#C5A880] rounded-full animate-bounce" />
+          </div>
+        </div>
+
+
       </div>
     </section>
   );
