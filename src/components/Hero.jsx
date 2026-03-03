@@ -44,7 +44,9 @@ const Hero = () => {
           <div className="w-5 h-9 border border-white/30 rounded-full flex justify-center p-1">
             <div className="w-1 h-2 bg-[#C5A880] rounded-full animate-bounce" />
           </div>
+          <h5 className="text-sm">scroll down</h5>
         </div>
+        
 
 
       </div>
